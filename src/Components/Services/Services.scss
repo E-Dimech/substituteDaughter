@@ -1,0 +1,9 @@
+@import "../../Styles/global";
+
+.services {
+  height: 50vh;
+  &__title {
+    font-size: 2rem;
+    text-align: center;
+  }
+}

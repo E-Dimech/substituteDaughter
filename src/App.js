@@ -1,16 +1,24 @@
 import "./App.css";
+import React from "react";
+
+import NavBar from "./Components/NavBar/NavBar";
+import Hero from "./Components/Hero/Hero";
+import Services from "./Components/Services/Services";
+import Location from "./Components/Location/Location";
+import Contact from "./Components/Contact/Contact";
+import Qualifications from "./Components/Qualifications/Qualifications";
+import Testimonials from "./Components/Testimonials/Testimonials";
 
 function App() {
   return (
     <>
-      <div className="back1">
-        <h1>hello</h1>
-        <h2>world</h2>
-      </div>
-      <div className="back2">
-        <h1>hello</h1>
-        <h2>world</h2>
-      </div>
+      <NavBar />
+      <Hero title="Hero" name="Hero" id="Hero" />
+      <Services />
+      <Location />
+      <Contact />
+      <Qualifications />
+      <Testimonials />
     </>
   );
 }

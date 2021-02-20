@@ -1,0 +1,10 @@
+@import "../../Styles/global";
+
+.location {
+  height: 50vh;
+  background-color: #6a2c70;
+  &__title {
+    font-size: 2rem;
+    text-align: center;
+  }
+}

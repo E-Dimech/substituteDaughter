@@ -1,0 +1,11 @@
+@import "../../Styles/global";
+
+.contact {
+  height: 50vh;
+  background-color: white;
+
+  &__title {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
