@@ -2,18 +2,27 @@
 
 .nav {
   width: 100%;
-  position: fixed;
+  // position: fixed;
   top: 0;
   box-sizing: border-box;
+  margin-bottom: 0;
   &__content {
     width: 100%;
     display: flex;
     justify-content: flex-start;
   }
   &__logo {
-    width: 5%;
-    margin-right: 40%;
+    width: 10%;
+    max-height: 100px;
+    margin: 1% 10% 0 1%;
     // justify-content: flex-start;
+    @include tablet {
+      width: 5%;
+      margin-right: 5%;
+    }
+    @include desktop {
+      margin-right: 35%;
+    }
   }
   &__items {
     list-style: none;
@@ -21,11 +30,18 @@
     // justify-content: flex-end;
   }
   &__list {
-    margin-left: 3%;
+    margin-right: 5%;
+    font-size: 1rem;
     cursor: pointer;
     // padding-right: 50px;
     justify-content: flex-end;
-
+    @include tablet {
+      font-size: 1.5rem;
+      margin-right: 5%;
+    }
+    @include desktop {
+      font-size: 2rem;
+    }
     // width: 100px;
   }
 }

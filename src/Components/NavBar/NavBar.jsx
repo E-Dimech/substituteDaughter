@@ -3,6 +3,7 @@ import "./NavBar.scss";
 import Logo from "../../Assets/Images/logo.png";
 
 import { Link } from "react-scroll";
+import MediaQuery from "react-responsive";
 
 export default function NavBar() {
   // scrollToTop = {
@@ -66,28 +67,30 @@ export default function NavBar() {
             >
               Contact
             </Link>
-            <Link
-              activeClass="active"
-              className="nav__list"
-              to="qualifications"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Qualifications
-            </Link>
-            <Link
-              activeClass="active"
-              className="nav__list"
-              to="testimonials"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Testimonials
-            </Link>
+            <MediaQuery minDeviceWidth={768}>
+              <Link
+                activeClass="active"
+                className="nav__list"
+                to="qualifications"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Qualifications
+              </Link>
+              <Link
+                activeClass="active"
+                className="nav__list"
+                to="testimonials"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Testimonials
+              </Link>
+            </MediaQuery>
           </ul>
         </div>
       </nav>

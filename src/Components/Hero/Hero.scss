@@ -1,12 +1,20 @@
 @import "../../Styles/global";
 
 .hero {
-  margin-top: 5%;
-  height: 500px;
+  margin-top: 1%;
+  height: 200px;
   background-image: url(../../Assets/Images/seniorcare.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  @include tablet {
+    height: 500px;
+    background-size: cover;
+  }
+  @include desktop {
+    background-size: cover;
+    height: 600px;
+  }
   //   border-bottom-left-radius: 50% 38%;
   //   border-bottom-right-radius: 50% 38%;
 }
