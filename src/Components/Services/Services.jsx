@@ -13,7 +13,7 @@ function Services() {
               <img
                 className="services__menu-img"
                 src={item.image}
-                alt="something"
+                alt={item.alt}
               />
               <h3 className="services__menu-title">{item.title}</h3>
             </div>
