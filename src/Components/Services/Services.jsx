@@ -16,6 +16,9 @@ function Services() {
                 alt={item.alt}
               />
               <h3 className="services__menu-title">{item.title}</h3>
+              <div className="services__text-wrp">
+                <p className="services__menu-text">{item.text}</p>
+              </div>
             </div>
           );
         })}

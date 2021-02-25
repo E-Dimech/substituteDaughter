@@ -11,35 +11,47 @@ export const ServiceMenu = [
     title: "Personalized Care",
     cName: "services__menu-card",
     alt: "Personalized patient care",
+    text:
+      "I will meet with you to determine what your needs are. Then I will be the person that arrives at your house on the day and time we arrange on.",
   },
   {
     image: Companion,
     title: "Companionship & Assistance",
     cName: "services__menu-card",
     alt: "Companionship and assistance",
+    text:
+      "We can enjoy each others company while I help you with all the tasks you want to continue to do. On the days when you don't feel up to it I can do it for you.",
   },
   {
     image: Calendar,
     title: "Appointments",
     cName: "services__menu-card",
     alt: "Appointments",
+    text:
+      "I will drive you and wait with you. If you request note taking on important information, I can do that.",
   },
   {
     image: Shopping,
     title: "Errands & Outings",
     cName: "services__menu-card",
     alt: "Errands and outings",
+    text:
+      "I can take you shopping, to lunch with your friends or to see a play or movie. If you prefer I can do the errands for you.",
   },
   {
     image: Meals,
     title: "Meals",
     cName: "services__menu-card",
     alt: "In-home meal preparation",
+    text:
+      "I can assist with your meal preparation and clean up, while you cook it your way. You could also instruct me on how to make your favourite meals.",
   },
   {
     image: Packing,
     title: "Home Organizing & Downsizing",
     cName: "services__menu-card",
     alt: "Packing and moving assistance",
+    text:
+      "I can help make your home work better for you be rearranging areas or by placing frequently used items easy to reach.",
   },
 ];
