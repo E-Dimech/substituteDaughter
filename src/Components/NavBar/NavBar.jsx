@@ -117,7 +117,7 @@ class NavBar extends Component {
       <>
         <nav className="nav">
           <Link className="nav__logo-link" to="/">
-            <span className="nav__logo-title">E</span>
+            <span className="nav__logo-title">Substitute Daughter</span>
           </Link>
 
           <div className="nav__menu-icon" onClick={this.handleClick}>
