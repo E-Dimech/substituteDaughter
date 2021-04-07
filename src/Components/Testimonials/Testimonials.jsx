@@ -2,6 +2,7 @@ import React from "react";
 // import { MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdbreact";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import Eric from "../../Assets/Images/eric.jpg";
 
 import "./Testimonials.scss";
 
@@ -17,26 +18,36 @@ function Testimonials() {
         autoPlay={true}
         interval={4000}
       >
-        <div className="test">
-          <h4>What would we do without you!</h4>
-          <p>Couple Ages: 82 + 84</p>
+        <div>
+          <img src={Eric} alt="it me" />
+          <div className="myCarousel">
+            <h3>Couple Ages: 82 + 84</h3>
+            <p>What would we do without you!</p>
+          </div>
         </div>
-
-        <div className="test">
-          <h4>You're my angel</h4>
-          <p>Widow Age: 90</p>
+        <div>
+          <img src={Eric} alt="it me" />
+          <div className="myCarousel">
+            <h3>Widow Age: 90</h3>
+            <p>You're my angel</p>
+          </div>
         </div>
-
-        <div className="test">
-          <h4>Thank you for all that you do</h4>
-          <p>Widow Age: 89</p>
+        <div>
+          <img src={Eric} alt="it me" />
+          <div className="myCarousel">
+            <h3>Widow Age: 89</h3>
+            <p>Thank you for all that you do</p>
+          </div>
         </div>
-        <div className="test">
-          <h4>
-            Patricia is our driver, shopper, banker, organizer, cleaner, chef
-            and all the little things that can be a challenge for us
-          </h4>
-          <p>Couple Ages: 85 + 87</p>
+        <div>
+          <img src={Eric} alt="it me" />
+          <div className="myCarousel">
+            <h3>Couple Ages: 85 + 87</h3>
+            <p>
+              Patricia is our driver, shopper, banker, organizer, cleaner, chef
+              and all the little things that can be a challenge for us
+            </p>
+          </div>
         </div>
       </Carousel>
     </div>
