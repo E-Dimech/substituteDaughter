@@ -6,6 +6,12 @@ function Location() {
     <div className="location" id="location">
       <h2 className="location__title">Location</h2>
       <div className="location__map-container">
+        <div className="test">
+          <p>heorjelkrjelkrjaslkfjdklsfjdlksfjdlskfjdlskfjd</p>
+          <p>sdfdsf</p>
+          <p>sfsdfdsf</p>
+          <p>sdfdsfdsfdsfsdfdf</p>
+        </div>
         <iframe
           src="https://www.google.com/maps/d/u/0/embed?mid=1UUZ6Qclhz6Kc-smyBaJmqr186kcdWO91"
           title="service area"

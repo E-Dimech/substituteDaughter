@@ -10,11 +10,12 @@ function Services() {
         {ServiceMenu.map((item, index) => {
           return (
             <div className={item.cName} key={index}>
-              <img
+              {/* <img
                 className="services__menu-img"
                 src={item.image}
                 alt={item.alt}
-              />
+              /> */}
+              <i class={item.image}></i>
               <h3 className="services__menu-title">{item.title}</h3>
               <div className="services__text-wrp">
                 <p className="services__menu-text">{item.text}</p>
