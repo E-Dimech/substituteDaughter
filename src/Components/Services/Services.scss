@@ -22,8 +22,9 @@
   }
   &__menu-card {
     padding-top: 5%;
-    background-color: green;
-    border-radius: 15px;
+    border: 4px solid black;
+    background-image: url(../../Assets/Images/line-decorative-lines-8d2a0a116cf5af32157a9840553c7484.png);
+    border-radius: 25px;
     width: 80%;
     margin-bottom: 2%;
     @include tablet {
