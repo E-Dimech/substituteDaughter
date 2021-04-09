@@ -49,7 +49,7 @@ export const ServiceMenu = [
   },
   {
     image: "fas fa-box-open",
-    title: "Home Organizing & Downsizing",
+    title: "Home Organizing",
     cName: "services__menu-card",
     alt: "Packing and moving assistance",
     text:
