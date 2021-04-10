@@ -1,13 +1,20 @@
+// @font-face {
+//   font-family: "Righteous";
+//   src: url("../Assets/Fonts/Righteous.ttf") format("opentype");
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
 @font-face {
-  font-family: "Righteous";
-  src: url("../Assets/Fonts/Righteous.ttf") format("opentype");
+  font-family: "Alice";
+  src: url("../Assets/Fonts/Alice.ttf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 
-// @font-face {
-//   font-family: "ArchitectsDaughter";
-//   src: url("../Assets/Fonts/ArchitectsDaughter.ttf") format("opentype");
-//   font-weight: 400;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../Assets/Fonts/PlayfairDisplay.ttf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}

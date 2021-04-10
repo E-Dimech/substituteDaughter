@@ -7,9 +7,9 @@ function Location() {
       <h2 className="location__title">Location</h2>
       <div className="location__map-container">
         <div className="test">
-          <p>heorjelkrjelkrjaslkfjdklsfjdlksfjdlskfjdlskfjd</p>
-          <p>sdfdsf</p>
-          <p>sfsdfdsf</p>
+          <p>heorjelkrjelkrlskfjd</p>
+          <p>sdfdsdfdfdsff</p>
+          <p>sfsdfdssdfdfdsff</p>
           <p>sdfdsfdsfdsfsdfdf</p>
         </div>
         <iframe
