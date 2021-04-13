@@ -28,15 +28,21 @@
     background-image: url(../../Assets/Images/line-decorative-lines-8d2a0a116cf5af32157a9840553c7484.png);
     border-radius: 25px;
     width: 80%;
+    max-width: 400px;
     margin-bottom: 2%;
     @include tablet {
       width: 45%;
-      min-height: 375px;
+      min-height: 440px;
+      max-width: 420px;
     }
     @include desktop {
       width: 30%;
-      min-height: 350px;
+      min-height: 420px;
+      max-height: 425px;
+      max-width: 370px;
       margin-top: 0;
+      margin-right: 2%;
+      margin-left: 2%;
     }
   }
   // &__menu-img {
