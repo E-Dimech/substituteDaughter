@@ -24,11 +24,13 @@
   }
   &__menu-card {
     padding-top: 5%;
-    border: 4px solid black;
-    background-image: url(../../Assets/Images/line-decorative-lines-8d2a0a116cf5af32157a9840553c7484.png);
+    border: 3px solid black;
+    // background-image: url(../../Assets/Images/line-decorative-lines-8d2a0a116cf5af32157a9840553c7484.png);
     border-radius: 25px;
-    width: 80%;
+    // width: 80%;
+    width: 60%;
     max-width: 400px;
+    min-height: 250px;
     margin-bottom: 2%;
     @include tablet {
       width: 45%;
@@ -55,8 +57,11 @@
   // }
   &__menu-title {
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     font-family: "Alice";
+    @include tablet {
+      font-size: 1.7rem;
+    }
   }
   &__text-wrp {
     margin-left: 10%;
@@ -64,43 +69,65 @@
   }
   &__menu-text {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: "Alice";
+    @include tablet {
+      font-size: 1.5rem;
+    }
   }
 }
 
 .fa-user-friends {
-  font-size: 5rem;
+  font-size: 3rem;
   display: flex;
   justify-content: center;
+  @include tablet {
+    font-size: 5rem;
+  }
 }
 
 .fa-clipboard {
-  font-size: 5rem;
+  font-size: 3rem;
   display: flex;
   justify-content: center;
+  @include tablet {
+    font-size: 5rem;
+  }
 }
 
 .fa-calendar-alt {
-  font-size: 5rem;
+  font-size: 3rem;
   display: flex;
   justify-content: center;
+  @include tablet {
+    font-size: 5rem;
+  }
 }
 
 .fa-shopping-cart {
-  font-size: 5rem;
+  font-size: 3rem;
   display: flex;
   justify-content: center;
+  @include tablet {
+    font-size: 5rem;
+  }
 }
 
 .fa-utensils {
-  font-size: 5rem;
+  font-size: 3rem;
   display: flex;
   justify-content: center;
+  @include tablet {
+    font-size: 5rem;
+  }
 }
 
 .fa-box-open {
-  font-size: 5rem;
+  font-size: 3rem;
+  color: blue;
   display: flex;
   justify-content: center;
+  @include tablet {
+    font-size: 5rem;
+  }
 }
