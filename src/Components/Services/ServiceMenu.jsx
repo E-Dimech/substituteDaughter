@@ -1,13 +1,5 @@
-// import Personal from "../../Assets/Icons/personalized.png";
-// import Companion from "../../Assets/Icons/companion.png";
-// import Calendar from "../../Assets/Icons/calendar.png";
-// import Shopping from "../../Assets/Icons/shopping.png";
-// import Meals from "../../Assets/Icons/cooking.png";
-// import Packing from "../../Assets/Icons/packing.png";
-
 export const ServiceMenu = [
   {
-    // image: Personal,
     image: "far fa-clipboard",
     title: "Personalized Care",
     cName: "services__menu-card",

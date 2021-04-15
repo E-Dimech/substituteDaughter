@@ -1,5 +1,4 @@
 import React from "react";
-// import { MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdbreact";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import Eric from "../../Assets/Images/eric.jpg";

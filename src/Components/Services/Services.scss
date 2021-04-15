@@ -25,9 +25,8 @@
   &__menu-card {
     padding-top: 5%;
     border: 3px solid black;
-    // background-image: url(../../Assets/Images/line-decorative-lines-8d2a0a116cf5af32157a9840553c7484.png);
+    background-image: url(../../Assets/Images/line-decorative-lines-8d2a0a116cf5af32157a9840553c7484.png);
     border-radius: 25px;
-    // width: 80%;
     width: 60%;
     max-width: 400px;
     min-height: 250px;
@@ -47,14 +46,6 @@
       margin-left: 2%;
     }
   }
-  // &__menu-img {
-  //   width: 30%;
-  //   min-height: 70px;
-  //   max-height: 70px;
-  //   display: block;
-  //   margin-left: auto;
-  //   margin-right: auto;
-  // }
   &__menu-title {
     text-align: center;
     font-size: 1.2rem;

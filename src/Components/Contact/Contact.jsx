@@ -1,7 +1,7 @@
 import React from "react";
 import Eric from "../../Assets/Images/eric.jpg";
 import "./Contact.scss";
-import { Carousel } from "react-responsive-carousel";
+// import { Carousel } from "react-responsive-carousel";
 
 function Contact() {
   return (
